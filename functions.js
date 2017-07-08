@@ -43,7 +43,7 @@ function pythagoreanTheorem(a, b){
   var bSq = b * b;
   var cSq = aSq + bSq;
 
-  return Math.sqrt(cSq)
+  return Math.sqrt(cSq)                                          
 };
 
 var result = pythagoreanTheorem(3, 4);
